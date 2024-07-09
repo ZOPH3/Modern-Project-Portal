@@ -1,0 +1,43 @@
+{
+    "Client_Portal": [
+      {
+        "clp_id": 1,
+        "clp_client": 1,
+        "clp_title": "Client A Portal"
+      },
+      {
+        "clp_id": 2,
+        "clp_client": 2,
+        "clp_title": "Client B Portal"
+      }
+    ],
+    "People": [
+      {
+        "p_id": 1,
+        "p_username": "john_doe",
+        "p_role": 1,
+        "p_notes": "Project Manager"
+      },
+      {
+        "p_id": 2,
+        "p_username": "jane_smith",
+        "p_role": 2,
+        "p_notes": "Developer"
+      }
+    ],
+    "Project": [
+      {
+        "pr_id": 1,
+        "pr_title": "Project Alpha",
+        "pr_description": "First project for Client A",
+        "pr_client": 1
+      },
+      {
+        "pr_id": 2,
+        "pr_title": "Project Beta",
+        "pr_description": "Second project for Client B",
+        "pr_client": 2
+      }
+    ]
+  }
+  
