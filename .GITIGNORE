@@ -1,8 +1,9 @@
 # Ignore node_modules
+/node_modules/
 node_modules/
 
 # Ignore logs
-logs/
+/logs/
 *.log
 
 # Ignore OS generated files
@@ -16,7 +17,7 @@ Thumbs.db
 /config/
 
 # Ignore other specific files or folders
-secret/
+/secret/
 *.bak
 
 # Ignore compiled files
