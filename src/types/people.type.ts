@@ -1,6 +1,12 @@
-type People = {
-    p_id: Number;
-    p_username: String;
-    p_role: Number;
-    p_description: String | undefined;
+type TSubscriptionTier = 'free' | 'basic' | 'business';
+
+interface IPeople {
+    _id: string;
+    avatar: string;
+    email: string;
+    firstName: string;
+    lastName: string;
+    subscriptionTier: TSubscriptionTier;
 }
+
+export { IPeople, TSubscriptionTier };
