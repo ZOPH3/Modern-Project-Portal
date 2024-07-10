@@ -1,7 +1,7 @@
 type TSubscriptionTier = 'free' | 'basic' | 'business';
 
-interface IPeople {
-    _id: string;
+interface IPerson {
+    _id: number;
     avatar: string;
     email: string;
     firstName: string;
@@ -9,4 +9,4 @@ interface IPeople {
     subscriptionTier: TSubscriptionTier;
 }
 
-export { IPeople, TSubscriptionTier };
+export { IPerson, TSubscriptionTier };

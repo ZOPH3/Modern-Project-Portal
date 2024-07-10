@@ -1,5 +1,3 @@
-import { IPeople } from "./people.type";
-
 export default interface IProject {
     _id: string;
     pr_title: string;
